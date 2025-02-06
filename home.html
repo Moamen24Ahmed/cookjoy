@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CookJoy - Best Chocolate Cake</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Login Form -->
+    <div id="login-form" class="login-form">
+      <h2>Login</h2>
+      <form id="login">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+
+    <!-- Dashboard for Editing (Hidden by Default) -->
+    <div id="dashboard" class="dashboard hidden">
+      <h2>Dashboard</h2>
+      <form id="edit-form">
+        <label for="ingredients">Ingredients:</label>
+        <textarea id="ingredients" name="ingredients"></textarea>
+        <label for="instructions">Instructions:</label>
+        <textarea id="instructions" name="instructions"></textarea>
+        <label for="photo">Photo URL:</label>
+        <input type="text" id="photo" name="photo" placeholder="Enter image URL">
+        <button type="submit">Update Recipe</button>
+      </form>
+    </div>
+
+    <!-- Recipe Content -->
+    <div class="recipe-content">
+      <h1>Best Chocolate Cake</h1>
+      <img src="https://via.placeholder.com/800x400?text=Chocolate+Cake" alt="Best Chocolate Cake" class="recipe-image">
+      
+      <section class="ingredients">
+        <h2>Ingredients</h2>
+        <ul id="ingredients-list">
+        
+        </ul>
+      </section>
+
+      <section class="instructions">
+        <h2>Instructions</h2>
+        <ol id="instructions-list">
+        </ol>
+      </section>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

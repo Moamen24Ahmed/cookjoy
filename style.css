@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+    background-color: #FFF5E1; /* Warm cream background */
+    color: #6B4226; /* Chocolate brown text */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #6B4226;
+  }
+  
+  /* Login Form Styles */
+  .login-form {
+    background-color: #F4E5D7;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .login-form h2 {
+    margin-top: 0;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #6B4226;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .login-form button {
+    background-color: #6B4226;
+    color: #FFF5E1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #5A351E;
+  }
+  
+  /* Dashboard Styles */
+  .dashboard {
+    background-color: #F4E5D7;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard.hidden {
+    display: none;
+  }
+  
+  .dashboard h2 {
+    margin-top: 0;
+  }
+  
+  .dashboard textarea, .dashboard input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #6B4226;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .dashboard button {
+    background-color: #6B4226;
+    color: #FFF5E1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dashboard button:hover {
+    background-color: #5A351E;
+  }
+  
+  /* Recipe Content Styles */
+  .recipe-content {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .ingredients ul, .instructions ol {
+    padding-left: 20px;
+  }
+  
+  .ingredients li, .instructions li {
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .login-form, .dashboard, .recipe-content {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+  }
